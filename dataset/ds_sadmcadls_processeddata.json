@@ -1,0 +1,23 @@
+{
+	"name": "ds_sadmcadls_processeddata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sadmcadls",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "day1"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "nov",
+				"fileSystem": "processeddata"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

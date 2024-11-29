@@ -1,0 +1,9 @@
+{
+	"name": "adfnytraining",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "55911684-9893-4d5f-bc61-a83805ec23be",
+		"tenantId": "8f5bedf4-e04a-4957-b99b-80a344a6bb5d"
+	}
+}
